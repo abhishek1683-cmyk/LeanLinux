@@ -5,7 +5,7 @@ sudo apt-get full-upgrade -y &&
 sudo apt-get update --fix-missing -y && 
 sudo apt-get upgrade --fix-missing -y && 
 sudo apt-get autoremove -y && 
-sudo apt-get autoclean  && 
+sudo apt-get autoclean -y && 
 sudo apt-get clean -y 
 
 
