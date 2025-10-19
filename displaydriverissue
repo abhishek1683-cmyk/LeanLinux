@@ -1,0 +1,10 @@
+https://www.intel.com/content/www/us/en/support/articles/000005520/graphics.html
+https://www.intel.com/content/www/us/en/support.html
+https://www.intel.com/content/www/us/en/support/articles/000005533/software/chipset-software.html
+
+lspci -k | grep -EA3 'VGA|3D|Display'
+00:02.0 VGA compatible controller: Intel Corporation 4 Series Chipset Integrated Graphics Controller (rev 03)
+	Kernel driver in use: i915
+	Kernel modules: i915
+00:1b.0 Audio device: Intel Corporation NM10/ICH7 Family High Definition Audio Controller (rev 01)
+
