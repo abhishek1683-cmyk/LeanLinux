@@ -1,0 +1,22 @@
+sudo apt install chromium -y &&
+sudo apt install mousepad -y &&
+sudo apt install ufw -y &&
+sudo apt install pcmanfm -y 
+
+
+
+sudo apt install xrdp
+sudo systemctl status xrdp
+
+sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y
+sudo apt install xrdp -y && sudo adduser xrdp ssl-cert && sudo systemctl restart xrdp && sudo systemctl status xrdp && sudo ufw allow 3389
+
+sudo dpkg -i <debfilename> && sudp apt-get install -f -y
+
+
+
+
+
+
+
+

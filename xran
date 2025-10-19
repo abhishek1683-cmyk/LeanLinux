@@ -1,0 +1,27 @@
+xrandr --newmode "1920x1080_60.00" 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync
+xrandr --addmode VGA-1 "1920x1080_60.00"
+xrandr --output VGA-1 --mode "1920x1080_60.00"
+
+
+
+https://superuser.com/questions/1173105/after-manually-adding-higher-resolution-with-xrandr-display-does-not-fill-scree
+
+cvt --reduced 1920 1080 60
+sudo xrandr --newmode "1920x1080R"  138.50  1920 1968 2000 2080  1080 1083 1088 1111 +hsync -vsync
+
+sudo xrandr --addmode VGA-1 1920x1080R
+sudo xrandr --output VGA-1 --mode 1920x1080R
+
+cinnemon
+sudo xrandr --newmode  "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync &&
+sudo xrandr --addmode VGA-1 "1920x1080_60.00" &&
+sudo xrandr --output VGA-1 --mode "1920x1080_60.00" 
+
+xfce
+sudo xrandr --newmode  "1920x1080R"  138.50  1920 1968 2000 2080  1080 1083 1088 1111 +hsync -vsync &&
+sudo xrandr --addmode VGA-1 "1920x1080_R" &&
+sudo xrandr --output VGA-1 --mode "1920x1080_R" 
+
+
+
+sudo xrandr --newmode  "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync && sudo xrandr --addmode VGA-1 "1920x1080_60.00" && sudo xrandr --output VGA-1 --mode "1920x1080_60.00" 
