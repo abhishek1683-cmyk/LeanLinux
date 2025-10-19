@@ -1,36 +1,38 @@
+su root &&
+sudo nano /etc/sudoers &&
+exit &&
 sudo nano /etc/apt/sources.list
 sudo apt remove pidgin -y &&
-sudo apt remove --purge libreoffice* -y &&
-sudo apt-get remove --purge thunderbird -y &&
-sudo apt-get remove gnome-games -y &&
-sudo apt-get remove hexchat -y &&
-sudo apt-get remove shotwell -y &&
-sudo apt-get remove remmina -y &&
+sudo apt purge libreoffice* -y &&
+sudo apt purge thunderbird -y &&
+sudo apt purge hexchat -y &&
+sudo apt purge shotwell -y &&
+sudo apt purge remmina -y &&
 sudo apt purge gnome-games -y &&
-sudo apt remove cheese -y &&
-sudo apt-get purge sound-juicer -y &&
+sudo apt purge cheese -y &&
+sudo apt purge sound-juicer -y &&
 sudo apt purge brasero -y &&
 sudo apt purge gnome-sound-recorder -y &&
 sudo apt purge gnote -y &&
-sudo apt purge xfburn &&
-sudo apt purge ristretto &&
+sudo apt purge xfburn -y &&
+sudo apt purge ristretto -y &&
 sudo apt purge gnome-screenshot -y &&
 sudo apt purge xfce4-screenshooter -y &&
 sudo apt purge parole -y &&
 sudo apt purge xsane -y &&
 sudo apt purge xfburn -y &&
 sudo apt purge atril* -y &&
-sudo apt remove moreutils -y &&
+sudo apt purge moreutils -y &&
 sudo apt purge exfalso -y &&
 sudo apt purge synaptic -y &&
-sudo apt purge thunar -y &&
 
 sudo apt autoremove -y &&
 sudo apt clean -y 
 
-sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt clean
+sudo apt update && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y
 
 
+#sudo apt purge thunar -y && will reset panel
 
 
 
