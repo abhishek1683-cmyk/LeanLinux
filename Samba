@@ -14,6 +14,9 @@ public=no
 
 smbpasswd -a <username> <password> <password>
 
+
+sudo ufw allow samba
+
 sudo smbpasswd -a <username> -w <pw> && sudo systemctl restart smbd.service
 
 
