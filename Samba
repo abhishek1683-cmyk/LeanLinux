@@ -14,6 +14,6 @@ public=no
 
 
 
-sudo smbpasswd -a <username> <pw> <pw> && sudo systemctl restart smbd.service
+sudo smbpasswd -a <username> -w <pw> && sudo systemctl restart smbd.service
 
 
