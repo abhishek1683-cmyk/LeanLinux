@@ -1,0 +1,5 @@
+sudo apt install openssh-server -y &&  
+sudo systemctl status ssh  &&  
+sudo systemctl enable ssh &&  
+sudo ufw allow ssh &&  
+sudo ufw reload
