@@ -12,7 +12,7 @@ create mask=0777
 directory mask=0777
 public=no
 
-
+smbpasswd -a <username> <password> <password>
 
 sudo smbpasswd -a <username> -w <pw> && sudo systemctl restart smbd.service
 
