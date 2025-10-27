@@ -1,0 +1,5 @@
+sudo apt install xrdp -y &&
+sudo adduser xrdp ssl-cert &&
+sudo ufw allow 3389 &&
+sudo ufw reload &&
+sudo systemctl status xrdp 
