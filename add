@@ -1,7 +1,7 @@
 sudo apt install libvulkan1 -y &&
 sudo apt install chromium -y &&
 sudo apt install curl -y &&
-sudo apt install brave-browser &&
+sudo apt install brave-browser -y &&
 sudo apt install mousepad -y &&
 sudo apt install libreoffice -y &&
 sudo apt install ufw -y &&
