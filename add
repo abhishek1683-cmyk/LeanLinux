@@ -5,11 +5,15 @@ sudo apt install brave-browser -y &&
 sudo apt install mousepad -y &&
 sudo apt install libreoffice -y &&
 sudo apt install ufw -y &&
+sudo apt install nodejs npm -y 
+
+
+
+
+
+
+
 sudo apt install pcmanfm -y 
-
-
-
-
 sudo apt install xrdp
 sudo systemctl status xrdp
 
