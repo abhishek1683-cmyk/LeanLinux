@@ -1,0 +1,1 @@
+Lean Linux has set of commands used to customize Debian Linux LXDE desktop environment for windows users. One can find readymade commands and configuration infromation to customize features for their need.
