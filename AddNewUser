@@ -1,0 +1,1 @@
+sudo useradd -m <new User Name> && sudo passwd <new User Name>
