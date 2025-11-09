@@ -1,4 +1,5 @@
-sudo apt install samba -y && sudo nano /etc/samba/smb.conf
+sudo apt install samba smbclient cifs-utils -y && sudo nano /etc/samba/smb.conf && systemctl status smbd
+
 
 
 
