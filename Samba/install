@@ -1,19 +1,6 @@
 sudo apt install samba -y && sudo nano /etc/samba/smb.conf
 
-
-
-[pi]
-comment= Pi
-path=/
-browseable=Yes
-writeable=Yes
-only guest=no
-create mask=0777
-directory mask=0777
-public=no
-
-smbpasswd -a <username> <password> <password>
-
+put content of smb.conf file.
 
 sudo ufw allow samba
 
